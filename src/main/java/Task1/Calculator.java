@@ -5,25 +5,26 @@ public class Calculator {
 
     public void addition(double a, double b) {
         double c = a + b;
-        System.out.println("Результат: " + c + ". Предыдущий: " + result);
-        result = c;
+        printResult(c);
     }
 
     public void subtraction(double a, double b) {
         double c = a - b;
-        System.out.println("Результат: " + c + ". Предыдущий: " + result);
-        result = c;
+        printResult(c);
     }
 
     public void multiplication(double a, double b) {
         double c = a * b;
-        System.out.println("Результат: " + c + ". Предыдущий: " + result);
-        result = c;
+        printResult(c);
     }
 
     public void division(double a, double b) {
         double c = a / b;
-        System.out.println("Результат: " + c + ". Предыдущий: " + result);
-        result = c;
+        printResult(c);
+    }
+
+    public void printResult(double num1){
+        System.out.println("Результат: " + num1 + ". Предыдущий: " + result);
+        result = num1;
     }
 }
