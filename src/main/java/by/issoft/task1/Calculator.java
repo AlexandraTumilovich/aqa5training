@@ -1,4 +1,4 @@
-package Task1;
+package by.issoft.task1;
 
 public class Calculator {
     private double result;

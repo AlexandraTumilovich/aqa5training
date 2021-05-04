@@ -1,4 +1,4 @@
-package task6;
+package by.issoft.task6;
 
 public abstract class House {
     protected int area;

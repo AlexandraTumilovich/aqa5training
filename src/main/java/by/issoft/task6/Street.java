@@ -1,4 +1,4 @@
-package task6;
+package by.issoft.task6;
 
 import java.util.ArrayList;
 
@@ -11,39 +11,19 @@ public class Street {
     }
 
     public void buildApartment(int number, int floorNumber, int entranceNumber) {
-        /*
-        Apartment house building.
-        number - number of houses to build.
-        floorNumber - number of floors in one apartment house.
-        entranceNumber - number of entrances in one apartment house.
-         */
+
         for (int i = 0; i < number; i++) {
             houses.add(new Apartment(floorNumber, entranceNumber));
         }
     }
 
     public void buildTownhouse(int number, int roomNumber, int floorNumber, int area) {
-        /*
-        Townhause house building.
-        number - number of houses to build.
-        roomNumber - number of rooms in one half of Townhause.
-        floorNumber - number of floors in one Townhause.
-        area - area of one half of Townhause.
-         */
         for (int i = 0; i < number; i++) {
             houses.add(new Townhause(roomNumber, floorNumber, area));
         }
     }
 
     public void buildCottage(int number, int roomNumber, int floorNumber, int area) {
-        /*
-        Cottage house building.
-        number - number of houses to build.
-        roomNumber - number of rooms in one cottage.
-        floorNumber - number of floors in one cottage.
-        area - area of one cottage.
-         */
-
         for (int i = 0; i < number; i++) {
             houses.add(new Cottage(roomNumber, floorNumber, area));
         }
@@ -96,13 +76,13 @@ public class Street {
     }
 
     public static void main(String[] args) {
-        Street Lenin = new Street();
-        Lenin.buildApartment(10, 5, 7);
-        Lenin.buildApartment(5, 9, 5);
-        Lenin.buildTownhouse(8, 5, 2, 120);
-        Lenin.buildTownhouse(5, 7, 3, 150);
-        Lenin.buildCottage(3, 4, 2, 120);
-        Lenin.buildCottage(7, 3, 1, 90);
-        Lenin.printStreet();
+        Street lenin = new Street();
+        lenin.buildApartment(10, 5, 7);
+        lenin.buildApartment(5, 9, 5);
+        lenin.buildTownhouse(8, 5, 2, 120);
+        lenin.buildTownhouse(5, 7, 3, 150);
+        lenin.buildCottage(3, 4, 2, 120);
+        lenin.buildCottage(7, 3, 1, 90);
+        lenin.printStreet();
     }
 }

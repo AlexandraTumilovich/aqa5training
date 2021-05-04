@@ -1,4 +1,4 @@
-package task2;
+package by.issoft.task2;
 
 public class Taxi {
     private int tankVolume;

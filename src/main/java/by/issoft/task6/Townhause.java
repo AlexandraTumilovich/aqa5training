@@ -1,4 +1,4 @@
-package task6;
+package by.issoft.task6;
 
 public class Townhause extends House {
 

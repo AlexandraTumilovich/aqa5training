@@ -1,4 +1,4 @@
-package task4;
+package by.issoft.task4;
 
 import java.io.IOException;
 import java.nio.file.Files;

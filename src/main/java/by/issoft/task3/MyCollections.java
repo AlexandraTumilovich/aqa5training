@@ -1,7 +1,6 @@
-package task3;
+package by.issoft.task3;
 
 import org.apache.commons.collections4.ListUtils;
-import org.apache.commons.collections4.SetUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
